@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <title>
+        商品仓库管理系统 | register</title>
+
+
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.6 -->
+    <!-- Font Awesome -->
+    <!-- Ionicons -->
+    <!-- Theme style -->
+    <!-- iCheck -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="/manage_sys_web/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/manage_sys_web/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/manage_sys_web/plugins/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="/manage_sys_web/plugins/adminLTE/css/AdminLTE.css">
+    <link rel="stylesheet" href="/manage_sys_web/plugins/iCheck/square/blue.css">
+</head>
+
+<body class="hold-transition register-page">
+<div class="register-box">
+    <div class="register-logo">
+        <b>商品</b>商品仓库管理系统
+    </div>
+
+    <div class="register-box-body">
+        <p class="login-box-msg">新用户注册</p>
+
+        <form action="/manage_sys_web/user/register" method="post">
+            <div class="form-group has-feedback">
+                <input type="text" name="username" class="form-control" placeholder="用户名">
+                <span class="glyphicon glyphicon-user form-control-feedback"></span>
+            </div>
+            <div class="form-group has-feedback">
+                <input type="password" name="password" class="form-control" placeholder="密码">
+                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+            </div>
+            <div class="form-group has-feedback">
+                <input type="email" name="email" class="form-control" placeholder="邮箱">
+                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+            </div>
+            <div class="form-group has-feedback">
+                <input type="text" name="phoneNum" class="form-control" placeholder="电话号码">
+                <span class="glyphicon glyphicon-earphone form-control-feedback"></span>
+            </div>
+
+            <!-- <div class="form-group has-feedback">
+                <input type="password" class="form-control" placeholder="确认密码">
+                <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+            </div> -->
+            <div class="row">
+                <div class="col-xs-8">
+                    <a href="/manage_sys_web/loginPage" class="text-center">我有账号，现在就去登录</a>
+                </div>
+                <!-- /.col -->
+                <div class="col-xs-4">
+                    <button type="submit" class="btn btn-primary btn-block btn-flat">注册</button>
+                </div>
+                <!-- /.col -->
+            </div>
+        </form>
+
+    </div>
+    <!-- /.form-box -->
+</div>
+<!-- /.register-box -->
+
+<!-- jQuery 2.2.3 -->
+<!-- Bootstrap 3.3.6 -->
+<!-- iCheck -->
+<script src="/manage_sys_web/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="/manage_sys_web/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="/manage_sys_web/plugins/iCheck/icheck.min.js"></script>
+</body>
+
+</html>
